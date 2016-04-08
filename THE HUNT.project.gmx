@@ -29,11 +29,35 @@
       <sprite>sprites\spr_stalag_five</sprite>
     </sprites>
     <sprite>sprites\spr_fireball</sprite>
+    <sprite>sprites\spr_light</sprite>
+    <sprite>sprites\spr_rock</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_cave</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="CBNA Smartlight 1.3.2 GMS">
+      <script>scripts\SL_add_light.gml</script>
+      <script>scripts\SL_cast_sprite.gml</script>
+      <script>scripts\SL_draw_sprite_light.gml</script>
+      <script>scripts\SL_draw_sprite_shadow.gml</script>
+      <script>scripts\SL_engine_draw.gml</script>
+      <script>scripts\SL_engine_free.gml</script>
+      <script>scripts\SL_engine_ini_begin.gml</script>
+      <script>scripts\SL_engine_ini_end.gml</script>
+      <script>scripts\SL_engine_render.gml</script>
+      <script>scripts\SL_global_cast_obj.gml</script>
+      <script>scripts\SL_light_cast_obj.gml</script>
+      <script>scripts\SL_light_free.gml</script>
+      <script>scripts\SL_light_ini_begin.gml</script>
+      <script>scripts\SL_light_ini_end.gml</script>
+      <script>scripts\SL_set_time.gml</script>
+      <script>scripts\SL_sprite_set_ambient.gml</script>
+      <script>scripts\SL_ToD_empty.gml</script>
+      <script>scripts\SL_ToD_default.gml</script>
+    </scripts>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_head</object>
     <object>objects\obj_cape_top</object>
@@ -48,6 +72,9 @@
     <object>objects\obj_tree_leaves</object>
     <object>objects\obj_fireball</object>
     <object>objects\obj_player_stats</object>
+    <object>objects\obj_light</object>
+    <object>objects\obj_engine</object>
+    <object>objects\obj_rock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_cave</room>
